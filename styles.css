@@ -67,7 +67,7 @@ ul, a {
     max-width: 400px;
 }
 
-.main-sign-up h1 {
+.main-sign-up h1, .sign-up-section h2 {
     color: white;
     text-shadow: 3px 3px rgb(5, 54, 85);
 }
@@ -87,12 +87,12 @@ button {
     box-shadow: 1px 1px rgb(5, 54, 85);
 }
 
-.main-sign-up p {
+.main-sign-up p, .sign-up-section p {
     color: white;
     text-shadow: 1px 1px rgb(5, 54, 85);
 }
 
-.main-sign-up a {
+.main-sign-up a, .sign-up-section a {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-shadow: 1px 1px white;
@@ -159,9 +159,15 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 250px;
+    padding: 100px;
     flex-direction: column;
-    background-color: grey;
+    background-color: #92a5c0;
+}
+
+q {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-style: italic;
 }
 
 .quote {
@@ -172,4 +178,38 @@ button {
     display: flex;
     justify-content: flex-end;
     width: 50%;
+}
+
+.quoted p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.sign-up-section-container {
+    display: flex;
+    box-shadow: 2px 2px black;
+    max-width: 600px;
+    border-radius: 50px;
+    flex: 1 1 auto;
+    padding: 50px 100px;
+    background-color: #0c53b6;
+    justify-content: space-between;
+    gap: 3em;
+    align-items: center;
+}
+
+.sign-up-section button {
+    padding: 0 10px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
