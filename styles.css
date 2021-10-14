@@ -3,13 +3,13 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
+    flex: 1 1 auto;
 }
 
 .header {
     background-color: #0c53b6;
     display: flex;
     padding: 0 1em;
-    margin: 0;
     justify-content: space-between;
     align-items: center;
 }
@@ -45,7 +45,8 @@ ul, a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #eaebd2;
+    background-image: url(Images/bamboo-background.jpg);
+    background-size: 100%;
 }
 
 .main-section-containter {
@@ -82,6 +83,8 @@ button {
     background-color: gold;
     color: rgb(5, 54, 85);
     font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 1px 1px rgb(5, 54, 85);
 }
 
 .main-sign-up p {
@@ -94,4 +97,9 @@ button {
     max-width: 400px;
     border: 5px solid rgb(255, 255, 255);
     box-shadow: 3px 3px rgb(5, 54, 85);
+}
+
+.picture-section {
+    display: flex;
+    justify-content: center;
 }
