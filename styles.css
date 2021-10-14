@@ -148,6 +148,11 @@ button {
 .description-container h2, p {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(32, 32, 32);
+    text-shadow: 1px 1px rgb(119, 119, 119);
+}
+
+.description-container p {
+    font-size: 18px;
 }
 
 .quote-section {
