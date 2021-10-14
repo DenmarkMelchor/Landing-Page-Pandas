@@ -138,3 +138,22 @@ button {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(32, 32, 32);
 }
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px;
+    flex-direction: column;
+    background-color: grey;
+}
+
+.quote {
+    width: 50%;
+}
+
+.quoted {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
